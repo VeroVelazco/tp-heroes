@@ -2,6 +2,35 @@ body.babbage {
     
 }
 
-.babbage h1{
-    font-size: 32px;
+/* HEADER */
+
+.babbage__header{
+
+}
+.babbage__header__logo{
+    
+}
+.babbage__header__menu{
+    
+}
+.babbage__header__buscador{
+    
+}
+
+/* MAIN */
+
+.babbage__main{
+
+}
+
+/* MAIN | INTRO */
+
+.babbage__main__intro{
+
+}
+.babbage__main__intro__foto{
+
+}
+.babbage__main__intro__texto{
+
 }

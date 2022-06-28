@@ -10,34 +10,34 @@
 </head>
 
 <body class="babbage">
-    <header>
-        <div>
-            <a href="/"> <img src="/img/logo.png" alt=""></a>
+    <header class="babbage__header">
+        <div class="babbage__header__logo">
+            <a href="/"> <img width="100" src="/img/logo.png" alt=""></a>
         </div>
-        <nav>
+        <nav class="babbage__header__menu">
             <a href="/berners-lee">Berners-lee</a>
             <a href="/clarke">Clarke</a>
             <a href="/hamilton">Hamilton</a>
             <a href="/hopper">Hopper</a>
             <a href="/lovelace">Lovelace</a>
             <a href="/turing">Turing</a>
-            <a href="/">Home</a>
         </nav>
-        <div>
+        <div class="babbage__header__buscador">
             <form action="">
-                <input type="text" />
+                <input type="text">
                 <button>Buscar</button>
             </form>
         </div>
     </header>
 
-    <main>
-        <section>
+    <main class="babbage__main">
+        <section class="babbage__main__intro">
             <h1>Charles Babbage</h1>
-            <div>
-                <img src="/img/babbage.jpg" alt="Babbage">
+            <div class="babbage__main__intro__foto">
+                <img  width="100" src="/img/babbage.jpg" alt="Babbage">
             </div>
-            <p>Charles Babbage fue un matemático y científico de la computación británico.1​Diseñó y desarrolló una
+            <p class="babbage__main__intro__texto">
+                Charles Babbage fue un matemático y científico de la computación británico.1​Diseñó y desarrolló una
                 calculadora mecánica capaz de calcular tablas de funciones numéricas por el método de diferencias.
                 También diseñó, (pero nunca construyó), la analítica para ejecutar programas de tabulación o
                 computación; por estos inventos se le considera como una de las primeras personas en concebir la idea de
@@ -46,13 +46,13 @@
                 formol se exhibe en el Royal College of Surgeons of England. Sitio en Londres.2​
             </p>
         </section>
-        <section id="indice">
-            <h4 id="indice">Indice</h4>
-            <nav>
-                <ol>
+        <section id="indice" class="babbage__indice">
+            <h4>Indice</h4>
+            <nav class="babbage__indice__menu">
+                <ol class="babbage__indice__menu__principal">
                     <li>
                         <a href="#historia">Historia</a>
-                        <ol type="a">
+                        <ol type="a" class="babbage__indice__menu__anidado">
                             <li><a href="#primeros">Primeros años</a></li>
                             <li><a href="#años">Primeros años en Cambridge</a></li>
                             <li><a href="#despues">Despues de Cambridge</a></li>

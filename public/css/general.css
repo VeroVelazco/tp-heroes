@@ -1,8 +1,18 @@
+:root{
+    --colorfondo : rgb(245, 244, 244);
+    --coloTitulo : rgb(218, 118, 118);
+    --colorSubtitulos : rgb(187, 76, 76);
+    --fuenteRegular : 'Roboto'
+}
 body{
-    background-color: rgb(245, 245, 245);
+    background-color: bisque;
+
+
 }
+
 h1{
-    font-size: 48px;
+     
 }
+
 
 
